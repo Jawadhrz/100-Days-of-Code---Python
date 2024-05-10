@@ -77,4 +77,19 @@ print(True or False) # Logical OR, Output: True
 print(not True) # Logical NOT, Output: False
 
 
+# Identity Operators
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+
+print(x is z) # Output: True     # Identity operator compares the objects rather than their values. Both objects should have same memory location.
+print(x is y) # Output: False     
+
+print(x==y) # Output: True #The == operator compares the values of the variables.
+
+
+# Membership Operators
+
+
+
 #------------------
